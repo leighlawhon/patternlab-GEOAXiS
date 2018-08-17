@@ -269,114 +269,17 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/*------------------------------------*\
-    #GLOBAL CLASSES
-\*------------------------------------*/
-/**
- * Clearfix
- */
-.cf {
-  *zoom: 1; }
+.bkg-brand-blue {
+  background-color: #315172; }
 
-/**
- * Clearfix pseudo-elements
- */
-.cf:before, .cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */ }
+.bkg-brand-blue-dark {
+  background-color: #080F13; }
 
-.cf:after {
-  clear: both; }
+.bkg-brand-blue-light {
+  background-color: #9AB6BE; }
 
-/**
- * Completely remove from the flow and screen readers.
- */
-.is-hidden {
-  display: none !important;
-  visibility: hidden !important; }
-
-/**
- * Completely remove from the flow but leave available to screen readers.
- */
-.is-vishidden {
-  position: absolute !important;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px); }
-
-/**
- * Text align right
- */
-.align-right {
-  text-align: right; }
-
-/**
- * Text align center
- */
-.align-center {
-  text-align: center; }
-
-/**
- * Text Align left
- */
-.align-left {
-  text-align: left; }
-
-/**
- * Hide on small screens
- */
-@media all and (max-width: 46.8em) {
-  .hide-small {
-    display: none; } }
-
-/**
- * Hide on medium screens
- */
-@media all and (min-width: 46.8em) and (max-width: 50em) {
-  .hide-med {
-    display: none; } }
-
-/**
- * Hide on large screens
- */
-@media all and (min-width: 50em) {
-  .hide-large {
-    display: none; } }
-
-/**
- * Show valid text color
- */
-.valid {
-  color: #03804d; }
-
-/**
- * Show error text color
- */
-.error {
-  color: #b12a0b; }
-
-/**
- * Show warning text color
- */
-.warning {
-  color: #a59b15; }
-
-/**
- * Show informational text color
- */
-.information {
-  color: #0192d0; }
-
-/**
- * Display secondary font family
- */
-.font-secondary {
-  font-family: Georgia, Times, "Times New Roman", serif; }
+.bkg-brand-orange {
+  background-color: #EE6F1B; }
 
 /*------------------------------------*\
     #HEADINGS
@@ -646,7 +549,7 @@ abbr {
   display: flex;
   transition: all 0.2s ease; }
   .c-block-media:hover .c-block-media__headline, .c-block-media:focus .c-block-media__headline {
-    color: #5C832F; }
+    color: #315172; }
   .c-block-media--small {
     font-size: 0.875rem; }
 
@@ -787,7 +690,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #3b4a20;
+  background: #315172;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -800,7 +703,7 @@ abbr {
    * Disabled button
    */ }
   .c-btn:hover, .c-btn:focus {
-    background: #5C832F;
+    background: #315172;
     color: #fff; }
   .c-btn.disabled {
     background: #d9d9d9;
@@ -910,7 +813,7 @@ abbr {
 .c-footer {
   clear: both;
   overflow: hidden;
-  background: #3b4a20;
+  background: #315172;
   color: #fff;
   line-height: 1.2;
   padding: 1em 0; }

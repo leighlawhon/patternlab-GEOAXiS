@@ -76,7 +76,7 @@
     "ishViewportRange": {
         "s": [240, 500],
         "m": [768, 768],
-        "l": [800, 2600]
+        "l": [800, 1300]
     },
     "patternStateCascade": ["inprogress", "inreview", "complete"],
     "patternStates": {},
