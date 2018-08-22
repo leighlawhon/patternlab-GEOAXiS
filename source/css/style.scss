@@ -117,12 +117,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 // @import "scss/components/carousels";
 // @import "scss/components/footer";
 // @import "scss/components/footer-nav";
-// @import "scss/components/forms";
+@import "scss/components/forms";
 // @import "scss/components/fields";
 // @import "scss/components/header";
 // @import "scss/components/logo";
-// @import "scss/components/icons";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "scss/components/icons";
 // @import "scss/components/lists";
 // @import "scss/components/messaging";
 // @import "scss/components/primary-nav";

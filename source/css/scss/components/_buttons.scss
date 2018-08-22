@@ -11,22 +11,33 @@
 	font-weight: bold;
 	font-size: $font-size-sm;
 	padding: 5px 40px;
-	&:hover{
-		background-color: lighten($orange, 10%)
-	}
 }
-.btn-secondary.disabled, .btn-secondary:disabled{
-	background-color:$gray-700;
-	border-color: $gray-700;
-	opacity: 1;
-}
+
 .btn-link-primary{
 	color: $gray-700;
-	&:hover{
+	@include float-left;
+	padding: 0px;
+	&:hover:enabled{
 		color: $orange;
 		background-color: transparent;
 	}
+	&.disabled{
+		color: $gray-700;
+		opacity: 1;
+	}
 }
-.btn-link:disabled{
-	
+.btn-cta{
+	position: relative;
+	&:before{
+		content: "";
+	    position: absolute;
+	    border: 2px $orange solid;
+	    left: -5%;
+	    width: 110%;
+	    height: 144%;
+	    border-radius: 4px;
+	    top: -20%;
+	}
+	// outline: 4px solid red;
+ //    outline-offset: 15px;
 }

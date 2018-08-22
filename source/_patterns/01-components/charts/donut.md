@@ -1,5 +1,5 @@
 ---
-title: Overlay
+title: Donut Chart
 ---
 
 [Insert description here]
