@@ -70,7 +70,7 @@ for (var i=0; i < process.argv.length; i++) {
       break;
     case 'loadstarterkit':
       if(process.env.npm_config_kit) {
-        loadstarterkit(process.env.npm_config_kit, process.env.npm_config_clean);
+        //loadstarterkit(process.env.npm_config_kit, process.env.npm_config_clean);
       } else {
         console.info("====[ Pattern Lab Error: No Valid Kit Found ]====");
       }
